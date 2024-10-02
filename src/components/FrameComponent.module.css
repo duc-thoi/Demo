@@ -1,0 +1,13 @@
+.headingAndContentParent {
+  width: 1216px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #1a1a1a;
+  font-family: Inter;
+}

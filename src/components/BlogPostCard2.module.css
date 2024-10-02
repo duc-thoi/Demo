@@ -1,0 +1,136 @@
+.imageIcon {
+  height: 200px;
+  width: 320px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.author,
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.heading {
+  line-height: 28px;
+}
+.supportingText {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #c0c5d0;
+}
+.headingAndText,
+.headingAndText1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headingAndText1 {
+  gap: 8px;
+  font-size: 18px;
+  color: #fff;
+}
+.headingAndText {
+  gap: 12px;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 48px;
+}
+.badge,
+.badgeBase {
+  display: flex;
+  flex-direction: row;
+}
+.badgeBase {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #f0f9ff;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 9px;
+}
+.badge {
+  align-items: flex-start;
+  justify-content: flex-start;
+  mix-blend-mode: lighten;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.badge1,
+.badgeBase1 {
+  flex: 1;
+  flex-direction: row;
+}
+.badgeBase1 {
+  border-radius: 16px;
+  background-color: #fdf2fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 9px;
+}
+.badge1 {
+  mix-blend-mode: lighten;
+  min-width: 54px;
+  color: #c11574;
+}
+.badge1,
+.blogPostCard,
+.categories,
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categories {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 90px 0 0;
+  gap: 8px;
+  text-align: center;
+  color: #026aa2;
+}
+.blogPostCard,
+.content {
+  gap: 24px;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  min-width: 161px;
+}
+.blogPostCard {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: 14px;
+  color: #6941c6;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .imageIcon {
+    flex: 1;
+  }
+  .blogPostCard {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .categories {
+    flex-wrap: wrap;
+  }
+}

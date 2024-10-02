@@ -1,0 +1,134 @@
+.blog1,
+.yourName {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+}
+.yourName {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 107px;
+}
+.blog1 {
+  font-weight: 700;
+}
+.blog,
+.blogContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blogContainer {
+  border-bottom: 1px solid #fff;
+  padding: 0 0 3px;
+}
+.blog {
+  padding: 8px;
+}
+.projects1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+}
+.projects {
+  cursor: pointer;
+}
+.about,
+.projects {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 7px 8px 8px;
+}
+.newsletter1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 105px;
+}
+.iconoutlinesun {
+  border-radius: 20px;
+}
+.iconoutlinesun,
+.moonIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconoutlinemoon,
+.toggleMode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconoutlinemoon {
+  border-radius: 20px;
+  cursor: pointer;
+}
+.toggleMode {
+  border-radius: 29px;
+  background-color: #fff;
+  padding: 8px 16px;
+  gap: 16px;
+}
+.header,
+.menu,
+.navbar {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.menu {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.header,
+.navbar {
+  box-sizing: border-box;
+}
+.navbar {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  gap: 20px;
+}
+.header {
+  background-color: #090d1f;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px 112px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .header {
+    padding-left: 56px;
+    padding-right: 56px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

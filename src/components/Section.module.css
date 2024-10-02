@@ -1,0 +1,381 @@
+.heading,
+.imageIcon {
+  align-self: stretch;
+  position: relative;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.imageIcon {
+  height: 228px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.author,
+.heading1 {
+  position: relative;
+  font-weight: 600;
+}
+.author {
+  align-self: stretch;
+  line-height: 20px;
+}
+.heading1 {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 32px;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 225px;
+  max-width: 100%;
+}
+.arrowUpRightIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.headingAndIcon,
+.iconWrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconWrap {
+  flex-direction: column;
+  padding: 4px 0 0;
+}
+.headingAndIcon {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 16px;
+  max-width: 100%;
+  font-size: 24px;
+  color: #1a1a1a;
+}
+.supportingText {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.headingAndText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 48px;
+}
+.badge,
+.badgeBase {
+  display: flex;
+  flex-direction: row;
+}
+.badgeBase {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #f9f5ff;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 9px;
+}
+.badge {
+  align-items: flex-start;
+  justify-content: flex-start;
+  mix-blend-mode: multiply;
+}
+.nestedBadge {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 64px;
+}
+.badge1,
+.badgeBase1 {
+  display: flex;
+  flex-direction: row;
+}
+.badgeBase1 {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #eef4ff;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 9px;
+}
+.badge1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  mix-blend-mode: multiply;
+  color: #3538cd;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.badge2,
+.badgeBase2 {
+  flex: 1;
+  flex-direction: row;
+}
+.badgeBase2 {
+  border-radius: 16px;
+  background-color: #fdf2fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 9px;
+}
+.badge2 {
+  mix-blend-mode: multiply;
+  min-width: 69px;
+  color: #c11574;
+}
+.badge2,
+.blogPostCard,
+.categories,
+.content1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categories {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 320px 0 0;
+  gap: 8px;
+  text-align: center;
+}
+.blogPostCard,
+.content1 {
+  flex-direction: column;
+  max-width: 100%;
+}
+.content1 {
+  align-self: stretch;
+  gap: 24px;
+}
+.blogPostCard {
+  flex: 1;
+  gap: 32px;
+  min-width: 385px;
+}
+.imageIcon1 {
+  height: 200px;
+  width: 320px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.heading2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.headingAndText1,
+.headingAndText2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headingAndText2 {
+  gap: 8px;
+  font-size: 18px;
+  color: #1a1a1a;
+}
+.headingAndText1 {
+  gap: 12px;
+}
+.badge4,
+.badgeBase3 {
+  flex: 1;
+  flex-direction: row;
+}
+.badgeBase3 {
+  border-radius: 16px;
+  background-color: #f0f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 9px;
+}
+.badge4 {
+  mix-blend-mode: multiply;
+  min-width: 54px;
+  color: #c11574;
+}
+.badge4,
+.categories1,
+.content2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categories1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 90px 0 0;
+  gap: 8px;
+  text-align: center;
+  color: #026aa2;
+}
+.content2 {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 161px;
+}
+.badgeBase5,
+.blogPostCard1 {
+  display: flex;
+  flex-direction: row;
+}
+.blogPostCard1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.badgeBase5 {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #ecfdf3;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 9px;
+}
+.categories2,
+.column {
+  display: flex;
+  align-items: flex-start;
+}
+.categories2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 90px 0 0;
+  gap: 8px;
+  text-align: center;
+  color: #037a48;
+}
+.column {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  min-width: 385px;
+  max-width: 100%;
+}
+.container,
+.content,
+.section {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content {
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 32px;
+  font-size: 14px;
+  color: #6941c6;
+}
+.container,
+.section {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.container {
+  align-items: flex-start;
+  padding: 0 32px;
+  gap: 32px;
+}
+.section {
+  background-color: #fff;
+  align-items: center;
+  padding: 30px 80px;
+  text-align: left;
+  font-size: 24px;
+  color: #1a1a1a;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .categories,
+  .headingAndIcon {
+    flex-wrap: wrap;
+  }
+  .categories {
+    padding-right: 160px;
+    box-sizing: border-box;
+  }
+  .blogPostCard {
+    gap: 16px;
+    min-width: 100%;
+  }
+  .imageIcon1 {
+    flex: 1;
+  }
+  .blogPostCard1 {
+    flex-wrap: wrap;
+  }
+  .column {
+    min-width: 100%;
+  }
+  .column,
+  .container,
+  .content {
+    gap: 16px;
+  }
+  .section {
+    gap: 32px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading,
+  .heading1 {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .categories {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .categories1,
+  .categories2 {
+    flex-wrap: wrap;
+  }
+  .section {
+    gap: 16px;
+  }
+}

@@ -1,0 +1,268 @@
+.yourName {
+  width: 132px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.blog1,
+.yourName {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+}
+.blog {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 7px 8px 8px;
+}
+.newsletter1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 105px;
+}
+.iconoutlinesun {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconoutlinemoon {
+  border-radius: 20px;
+  background-color: #fff;
+}
+.iconoutlinemoon,
+.menu,
+.navbar,
+.toggleMode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.toggleMode {
+  border-radius: 29px;
+  background-color: #090d1f;
+  padding: 8px 16px;
+  gap: 16px;
+  cursor: pointer;
+}
+.menu,
+.navbar {
+  gap: 14px;
+  max-width: 100%;
+}
+.navbar {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  text-align: left;
+  font-size: 20px;
+  color: #1a1a1a;
+  font-family: Inter;
+}
+.theBlog {
+  position: relative;
+  white-space: nowrap;
+}
+.container {
+  border-top: 1px solid rgba(0, 0, 0, 0.34);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.header,
+.ligthModeInner {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.header {
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 112px;
+  gap: 50px;
+  text-align: left;
+  font-size: 243.8px;
+  color: #1a1a1a;
+  font-family: Inter;
+}
+.ligthModeInner {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 20px 30px;
+}
+.div,
+.linkedin,
+.twitter {
+  position: relative;
+  line-height: 24px;
+}
+.div {
+  display: inline-block;
+  min-width: 75px;
+}
+.linkedin,
+.twitter {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.twitter {
+  display: inline-block;
+  min-width: 68px;
+}
+.linkedin {
+  min-width: 81px;
+}
+.email,
+.linkedin,
+.rssFeed {
+  display: inline-block;
+}
+.email {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  min-width: 52px;
+}
+.rssFeed {
+  min-width: 88px;
+}
+.addToFeedly,
+.rssFeed {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.container1,
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+  max-width: 100%;
+}
+.container1 {
+  justify-content: center;
+  padding: 0 654px 0 0;
+  box-sizing: border-box;
+}
+.footer,
+.ligthMode {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #1a1a1a;
+  font-family: Inter;
+}
+.ligthMode {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    gap: 130px;
+  }
+  .container1 {
+    flex-wrap: wrap;
+    padding-right: 327px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .theBlog {
+    font-size: 98px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .menu {
+    display: none;
+  }
+  .container {
+    gap: 65px;
+  }
+  .header {
+    gap: 25px;
+    padding-left: 56px;
+    padding-right: 56px;
+    box-sizing: border-box;
+  }
+  .menu1 {
+    flex-wrap: wrap;
+  }
+  .container1 {
+    padding-right: 163px;
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theBlog {
+    font-size: 61px;
+  }
+  .container {
+    gap: 32px;
+  }
+  .header {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .addToFeedly,
+  .div,
+  .email,
+  .linkedin,
+  .rssFeed,
+  .twitter {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .container1 {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: 16px;
+  }
+}

@@ -1,0 +1,127 @@
+.div,
+.linkedin,
+.twitter {
+  position: relative;
+  line-height: 24px;
+}
+.div {
+  display: inline-block;
+  min-width: 75px;
+}
+.linkedin,
+.twitter {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.twitter {
+  display: inline-block;
+  min-width: 68px;
+}
+.linkedin {
+  min-width: 81px;
+}
+.email,
+.linkedin,
+.rssFeed {
+  display: inline-block;
+}
+.email {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  min-width: 52px;
+}
+.rssFeed {
+  min-width: 88px;
+}
+.addToFeedly,
+.rssFeed {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.container,
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+  max-width: 100%;
+}
+.container {
+  padding: 0 654px 0 0;
+  box-sizing: border-box;
+}
+.footer,
+.newsletter {
+  background-color: #090d1f;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Inter;
+}
+.newsletter {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    flex-wrap: wrap;
+    padding-right: 327px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .menu {
+    flex-wrap: wrap;
+  }
+  .container {
+    padding-right: 163px;
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .addToFeedly,
+  .div,
+  .email,
+  .linkedin,
+  .rssFeed,
+  .twitter {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .container {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: 16px;
+  }
+}

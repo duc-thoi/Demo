@@ -1,0 +1,34 @@
+.container,
+.section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 32px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section {
+  align-items: center;
+  padding: 30px 80px;
+}
+@media screen and (max-width: 750px) {
+  .container {
+    gap: 16px;
+  }
+  .section {
+    gap: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section {
+    gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}

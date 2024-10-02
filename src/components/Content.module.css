@@ -1,0 +1,204 @@
+.heading,
+.subheading {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.heading {
+  margin: 0;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  line-height: 60px;
+  font-family: inherit;
+  color: #fff;
+}
+.headingAndSubheading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.supportingText {
+  margin: 0;
+  width: 768px;
+  position: relative;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #c0c5d0;
+  display: inline-block;
+  max-width: 100%;
+}
+.headingAndSupportingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.label {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: none;
+}
+.content1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Inter;
+  font-size: 16px;
+  color: #667085;
+  min-width: 198px;
+  max-width: 100%;
+}
+.helpIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+}
+.input,
+.inputWithLabel {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input {
+  flex: 1;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 13px 10px 15px;
+  gap: 8px;
+}
+.inputWithLabel {
+  height: 48px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.privacyPolicy {
+  text-decoration: underline;
+}
+.hintText {
+  position: relative;
+  line-height: 20px;
+  color: #c0c5d0;
+}
+.inputField,
+.inputFieldBase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputFieldBase {
+  align-self: stretch;
+  gap: 8px;
+}
+.inputField {
+  flex: 1;
+  min-width: 234px;
+}
+.buttonLabel {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.buttonBase {
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background-color: #7e56d9;
+  border: 1px solid #7e56d9;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 19px;
+}
+.button,
+.content,
+.emailCapture {
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.content,
+.emailCapture {
+  max-width: 100%;
+}
+.emailCapture {
+  width: 494px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #344154;
+}
+.content {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #7e56d9;
+  font-family: Inter;
+}
+@media screen and (max-width: 975px) {
+  .heading {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 29px;
+    line-height: 36px;
+  }
+  .supportingText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .emailCapture {
+    flex-wrap: wrap;
+  }
+  .content {
+    gap: 20px;
+  }
+}

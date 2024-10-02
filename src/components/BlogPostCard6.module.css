@@ -1,0 +1,154 @@
+.imageIcon {
+  border: 0;
+  background-color: transparent;
+  height: 240px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.author,
+.heading {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  line-height: 32px;
+  font-family: inherit;
+}
+.iconWrap {
+  margin: 0;
+  height: 28px;
+  width: 24px;
+}
+.headingAndIcon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 24px;
+  color: #fff;
+}
+.supportingText {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #c0c5d0;
+}
+.headingAndText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.text {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.badge,
+.badgeBase {
+  display: flex;
+  flex-direction: row;
+}
+.badgeBase {
+  border-radius: 16px;
+  background-color: #f9f5ff;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px;
+}
+.badge {
+  align-items: flex-start;
+  justify-content: flex-start;
+  mix-blend-mode: lighten;
+}
+.badgeBase1 {
+  border-radius: 16px;
+  background-color: #f8f9fc;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px;
+}
+.badge1,
+.badgeBase1,
+.badgeBase2 {
+  display: flex;
+  flex-direction: row;
+}
+.badge1 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  mix-blend-mode: lighten;
+  min-width: 70px;
+  color: #363e72;
+}
+.badgeBase2 {
+  border-radius: 16px;
+  background-color: #fdf2fa;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px;
+}
+.badge2,
+.blogPostCard,
+.categories,
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.badge2 {
+  flex: 1;
+  flex-direction: row;
+  mix-blend-mode: lighten;
+  min-width: 70px;
+  color: #c11574;
+}
+.blogPostCard,
+.categories,
+.content {
+  align-self: stretch;
+}
+.categories {
+  flex-direction: row;
+  padding: 0 17px 0 0;
+  gap: 8px;
+  text-align: center;
+}
+.blogPostCard,
+.content {
+  flex-direction: column;
+  gap: 24px;
+}
+.blogPostCard {
+  gap: 32px;
+  text-align: left;
+  font-size: 14px;
+  color: #6941c6;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .categories {
+    flex-wrap: wrap;
+  }
+  .blogPostCard {
+    gap: 16px;
+  }
+}
